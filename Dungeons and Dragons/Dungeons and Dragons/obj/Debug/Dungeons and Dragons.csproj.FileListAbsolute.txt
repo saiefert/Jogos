@@ -1,0 +1,34 @@
+C:\Users\SAIEFERT\source\repos\Dungeons and Dragons\Dungeons and Dragons\bin\Debug\Dungeons and Dragons.exe.config
+C:\Users\SAIEFERT\source\repos\Dungeons and Dragons\Dungeons and Dragons\bin\Debug\Dungeons and Dragons.exe
+C:\Users\SAIEFERT\source\repos\Dungeons and Dragons\Dungeons and Dragons\bin\Debug\Dungeons and Dragons.pdb
+C:\Users\SAIEFERT\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\Dungeons and Dragons.csprojAssemblyReference.cache
+C:\Users\SAIEFERT\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\FichaJogador.g.cs
+C:\Users\SAIEFERT\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\MainWindow.g.cs
+C:\Users\SAIEFERT\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\App.g.cs
+C:\Users\SAIEFERT\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\Dungeons and Dragons_MarkupCompile.cache
+C:\Users\SAIEFERT\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\Dungeons and Dragons_MarkupCompile.lref
+C:\Users\SAIEFERT\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\FichaJogador.baml
+C:\Users\SAIEFERT\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\MainWindow.baml
+C:\Users\SAIEFERT\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\Dungeons and Dragons.g.resources
+C:\Users\SAIEFERT\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\Dungeons_and_Dragons.Properties.Resources.resources
+C:\Users\SAIEFERT\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\Dungeons and Dragons.csproj.GenerateResource.cache
+C:\Users\SAIEFERT\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\Dungeons and Dragons.csproj.CoreCompileInputs.cache
+C:\Users\SAIEFERT\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\Dungeons and Dragons.exe
+C:\Users\SAIEFERT\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\Dungeons and Dragons.pdb
+C:\Users\josma\source\repos\Dungeons and Dragons\Dungeons and Dragons\bin\Debug\Dungeons and Dragons.exe.config
+C:\Users\josma\source\repos\Dungeons and Dragons\Dungeons and Dragons\bin\Debug\Dungeons and Dragons.exe
+C:\Users\josma\source\repos\Dungeons and Dragons\Dungeons and Dragons\bin\Debug\Dungeons and Dragons.pdb
+C:\Users\josma\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\Dungeons and Dragons.csprojAssemblyReference.cache
+C:\Users\josma\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\FichaJogador.g.cs
+C:\Users\josma\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\MainWindow.g.cs
+C:\Users\josma\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\App.g.cs
+C:\Users\josma\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\Dungeons and Dragons_MarkupCompile.cache
+C:\Users\josma\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\Dungeons and Dragons_MarkupCompile.lref
+C:\Users\josma\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\FichaJogador.baml
+C:\Users\josma\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\MainWindow.baml
+C:\Users\josma\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\Dungeons and Dragons.g.resources
+C:\Users\josma\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\Dungeons_and_Dragons.Properties.Resources.resources
+C:\Users\josma\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\Dungeons and Dragons.csproj.GenerateResource.cache
+C:\Users\josma\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\Dungeons and Dragons.csproj.CoreCompileInputs.cache
+C:\Users\josma\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\Dungeons and Dragons.exe
+C:\Users\josma\source\repos\Dungeons and Dragons\Dungeons and Dragons\obj\Debug\Dungeons and Dragons.pdb

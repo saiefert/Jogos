@@ -1,0 +1,25 @@
+﻿<Window x:Class="Dungeons_and_Dragons.FichaJogador"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dungeons_and_Dragons"
+        mc:Ignorable="d"
+        Title="FichaJogador" Height="435" Width="544" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="LabelNome" Content="Label" HorizontalAlignment="Center" Margin="23,9,346,363" VerticalAlignment="Center" FontWeight="Bold" FontSize="14" Width="169" HorizontalContentAlignment="Center" Height="34"/>
+        <Label x:Name="LabelClasse" Content="Label" HorizontalAlignment="Center" Margin="69,305,376,0" VerticalAlignment="Top" Width="93" HorizontalContentAlignment="Center" Height="32" FontWeight="Bold" FontSize="14"/>
+        <Image x:Name="ImagePersonagem" HorizontalAlignment="Left" Height="305" Margin="32,10,0,0" VerticalAlignment="Top" Width="169" Stretch="None"/>
+        <TextBlock x:Name="TextoInfo" HorizontalAlignment="Left" Margin="330,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="96" Width="180"><Run Text="Olar mundo"/></TextBlock>
+        <Button x:Name="ButtonRolaDados" Content="ROLAR DADO" HorizontalAlignment="Left" Margin="392,319,0,0" VerticalAlignment="Top" Width="106" Height="32" FontWeight="Bold" Background="#FF498CEE" BorderBrush="Black" Foreground="White" Click="ButtonRolaDados_Click"/>
+        <MediaElement x:Name="MediaPersonagem" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="53" Margin="0,3,0,0"/>
+        <TextBlock x:Name="TextBlockNivel" HorizontalAlignment="Left" Margin="333,34,0,0" TextWrapping="Wrap" Text="Nivel" VerticalAlignment="Top"/>
+        <Button x:Name="ButtonConfirma" Content="OK" HorizontalAlignment="Left" Margin="330,319,0,0" VerticalAlignment="Top" Width="40" Background="#FF11C922" FontWeight="Bold" Foreground="White" Click="ButtonConfirma_Click" Height="32"/>
+        <TextBlock x:Name="TextBlockVida" HorizontalAlignment="Left" Margin="333,116,0,0" TextWrapping="Wrap" Text="Vida" VerticalAlignment="Top" RenderTransformOrigin="-1.275,0.564"/>
+        <TextBlock x:Name="TextBlockForca" HorizontalAlignment="Left" Margin="333,53,0,0" TextWrapping="Wrap" Text="Força" VerticalAlignment="Top"/>
+        <TextBlock x:Name="TextBlockDestreza" HorizontalAlignment="Left" Margin="333,74,0,0" TextWrapping="Wrap" Text="Destreza" VerticalAlignment="Top"/>
+        <TextBlock x:Name="TextBlockConstituicao" HorizontalAlignment="Left" Margin="333,95,0,0" TextWrapping="Wrap" Text="Constituição" VerticalAlignment="Top"/>
+        <Label Content="Características" HorizontalAlignment="Left" Margin="330,3,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
