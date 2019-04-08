@@ -20,18 +20,11 @@ namespace Dungeons_and_Dragons
     /// </summary>
     public partial class FichaJogador : Window
     {
-        private string nome;
-        private string classe;
         private int etapa;
-        private int valor;
-        private int qtdDadosVida = 0;
-        private int bonus;
+        private string classe;
+        private string nome;
         private bool botaoRolaDados;
-
-        MontaFicha montaFicha = new MontaFicha();
-        Criatura barbaro = new Barbaro();
-        Criatura clerigo = new Barbaro();
-        Criatura ladino = new Ladino();
+        private bool botaoConfirma;
 
         public FichaJogador(string nome, string classe)
         {
@@ -43,10 +36,24 @@ namespace Dungeons_and_Dragons
             LabelClasse.Content = classe;
             ImagePersonagem.Source = new BitmapImage(new Uri($@"C:\img\{classe}.png"));
             MediaPersonagem.Source = new Uri($@"C:\img\{classe}.mp3");
-
             ButtonRolaDados.IsEnabled = false;
             TextoInfo.Text = $"Olá, {nome}, o {classe}! Agora você irá montar a sua ficha, clique em OK e role 2 dados (D5) para saber-mos o seu nível!";
+
+            if (classe.Equals(nameof(Barbaro)))
+            {
+                Criatura barbaro = new Barbaro();
+            }
+            else if (classe.Equals(nameof(Clerigo)))
+            {
+                Criatura clerigo = new Clerigo();
+            }
+            if (classe.Equals(nameof(Ladino)))
+            {
+                Criatura barbaro = new Ladino();
+            }
+
         }
+
 
         private void ButtonConfirma_Click(object sender, RoutedEventArgs e)
         {
@@ -57,17 +64,25 @@ namespace Dungeons_and_Dragons
 
         private void ButtonRolaDados_Click(object sender, RoutedEventArgs e)
         {
-            if (classe.Equals(nameof(Barbaro)))
+
+            switch (etapa)
             {
-                montaFicha.MontaFichaPersonagem(barbaro, etapa, botaoRolaDados);
-            }
-            else if (classe.Equals(nameof(Clerigo)))
-            {
-                montaFicha.MontaFichaPersonagem(clerigo, etapa, botaoRolaDados);
-            }
-            else if (classe.Equals(nameof(Ladino)))
-            {
-                montaFicha.MontaFichaPersonagem(ladino, etapa, botaoRolaDados);
+
+                case 1:
+                    TextoInfo.Text = $"Certo, agora que você sabe o seu nível, vamos rolar os dados para saber a sua força! São 5 D6, em que o menor dado é desconsiderado";
+                    break;
+                case 2:
+                    TextoInfo.Text = $"Ótimo, agora vamos verificar a sua destreza!";
+                    break;
+                case 3:
+                    TextoInfo.Text = $"Ótimo, agora vamos verificar a sua constituição!";
+                    break;
+                case 4:
+                    TextoInfo.Text = $"Ótimo, agora vamos verificar a sua vida!";
+                    break;
+                case 5:
+                    TextoInfo.Text = $"Agora podemos Começar o jogo!";
+                    break;
             }
         }
     }

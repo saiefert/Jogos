@@ -55,7 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="FichaJogador.xaml">
+    <Page Include="FichaPersonagem.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -69,10 +69,10 @@
     </Compile>
     <Compile Include="Barbaro.cs" />
     <Compile Include="Clerigo.cs" />
-    <Compile Include="MontaFicha.cs" />
+    <Compile Include="MontaCriatura.cs" />
     <Compile Include="Criatura.cs" />
-    <Compile Include="FichaJogador.xaml.cs">
-      <DependentUpon>FichaJogador.xaml</DependentUpon>
+    <Compile Include="FichaPersonagem.xaml.cs">
+      <DependentUpon>FichaPersonagem.xaml</DependentUpon>
     </Compile>
     <Compile Include="IControladora.cs" />
     <Compile Include="Ladino.cs" />

@@ -15,7 +15,8 @@ namespace Dungeons_and_Dragons
         private int _destreza;
         private int _constituicao;
         private int _vida;
-        private static Criatura[] criaturas;
+        private static int contCriatura;
+        private static Criatura[] criaturas;      
 
         public int Nivel { get => _nivel; set => _nivel = value; }
         public string Classe { get => _classe; set => _classe = value; }
@@ -25,6 +26,12 @@ namespace Dungeons_and_Dragons
         public int Constituicao { get => _constituicao; set => _constituicao = value; }
         public int Vida { get => _vida; set => _vida = value; }
         public Criatura[] Criaturas { get => criaturas; set => criaturas = value; }
+
+        public Criatura(Criatura criatura)
+        {
+            Criaturas[contCriatura] = criatura;
+            contCriatura++;
+        }
 
         public int Combate()
         {
